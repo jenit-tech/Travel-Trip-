@@ -1,0 +1,148 @@
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 328px;
+  height: 472px;
+  box-shadow: 0px 20px 25px 0px #0f172a1a;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-form {
+    width: 485px;
+    height: 472px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+.login-title {
+  font-family: Caveat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #334155;
+}
+
+.form-label {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #334155;
+  padding-bottom: 3px;
+}
+
+.input-username {
+  width: 272px;
+  height: 38px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #64748b;
+  margin-bottom: 20px;
+  color: #64748b;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .input-username {
+    width: 352px;
+    height: 38px;
+  }
+}
+
+.input-password-container {
+  width: 272px;
+  height: 38px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #64748b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .input-password-container {
+    width: 352px;
+    height: 38px;
+  }
+}
+
+.input-password {
+  color: #64748b;
+  font-family: 'Roboto';
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.password-icon {
+  width: 20px;
+  height: 20px;
+  color: #64748b;
+  cursor: pointer;
+}
+
+.btn-password-toggle {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.password-visible-text {
+  display: none;
+}
+
+.btn-login {
+  width: 272px;
+  height: 44px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background-color: #304766;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .btn-login {
+    width: 352px;
+    height: 44px;
+  }
+}
+
+.error-message {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.23px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #ef4444;
+  margin-bottom: 20px;
+}
